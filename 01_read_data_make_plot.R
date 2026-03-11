@@ -17,5 +17,10 @@ p_box <- dat %>%
 
 p_box
 
+
+
+p_box3 <- p_box2
+
+
 ggsave('outFigs/p_box.png',
        p_box)
