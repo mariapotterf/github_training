@@ -4,7 +4,13 @@
 library(ggplot2)
 library(dplyr)
 
-dat <- read.csv("rawData/dat25_subplot_recode.csv")
+#dat <- read.csv("rawData/dat25_subplot_recode.csv")
+
+dat <-"../rawData/dat25_subplot_recode.csv""
+
+# scripts
+#dat <- read.csv("../rawData/dat25_subplot_recode.csv")
+
 
 summary(dat)
 View(dat)
